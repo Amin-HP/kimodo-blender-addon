@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "kimodo_npz_importer"
+version = "1.0.0"
+name = "Kimodo Motion Importer"
+tagline = "Import Kimodo NPZ motions and retarget them onto any rig"
+maintainer = "AminHP"
+type = "add-on"
+website = "https://github.com/Amin-HP/kimodo-blender-addon"
+
+tags = ["Animation", "Import-Export", "Rigging"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:Apache-2.0"]
+
+[permissions]
+files = "Read Kimodo .npz motion files from disk"
